@@ -4,7 +4,7 @@
 //let paragrafo = document.querySelector('p');
 //paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
 let numeroSorteado = [];
-let numeroMax = 50;
+let numeroMax = 30;
 let numeroAleatorio = gerarNumeroAleatorio();
 let tentativa = 1;
 
@@ -16,7 +16,7 @@ function exibirTextoNaTela (tag, texto) {
 
 function exibirTextoInicial() {
   exibirTextoNaTela('h1', 'Jogo do número secreto');
-  exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
+  exibirTextoNaTela('p', 'Escolha um número entre 1 e 30');
 }
 
 exibirTextoInicial();
